@@ -41,7 +41,7 @@ int main() {
         return 1;
     }
 
-    cout << "Server Program" << endl;
+    cout << "Server Program started" << endl;
 
     SOCKET listenSocket = socket(AF_INET, SOCK_STREAM, 0);
     if (listenSocket == INVALID_SOCKET) {
